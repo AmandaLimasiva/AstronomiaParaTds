@@ -76,8 +76,6 @@ input, select, textarea {
 	appearance: none;
 }
 
-
-
 /*Meu Código*/
   h2 {
       text-align: center;
@@ -4204,4 +4202,17 @@ input, select, textarea {
 			padding: 2em 1.5em 0.1em 1.5em ;
 		}
 
+	}
+
+	
+	@media (max-width: 900px) {
+	.grid {
+		grid-template-columns: repeat(2, 1fr); /* 2 colunas em tablets */
+	}
+	}
+
+	@media (max-width: 600px) {
+	.grid {
+		grid-template-columns: 1fr; /* 1 coluna em celular */
+	}
 	}
