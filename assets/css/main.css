@@ -162,7 +162,7 @@ li:hover > ul {
   }
 
   li ul li a:hover {
-    background-color: #555;
+    background-color: #444;
   }
 
 /* Basic */
@@ -3254,7 +3254,7 @@ li:hover > ul {
 					}
 
 					#header nav a[href="#menu"]:active {
-						background-color: rgba(255, 255, 255, 0.075);
+						background-color: #ffffff13;
 					}
 
 		#header.alt {
@@ -3384,7 +3384,7 @@ li:hover > ul {
 		}
 
 		#menu h2 {
-			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+			border-bottom: solid 2px #ffffff20;
 			padding-bottom: 1em;
 		}
 
@@ -3429,8 +3429,8 @@ li:hover > ul {
 					text-transform: uppercase;
 				}
 
-					#menu .links li a:hover {
-						background: #45558d;
+					#menu .links li a:hover { 
+						background: #4c5c96;
 					}
 
 		@media screen and (max-width: 736px) {
